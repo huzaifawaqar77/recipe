@@ -1,0 +1,15 @@
+.about_us{
+    padding: 32px 64px;
+}
+.about_us > h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.about_us > p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 32px;
+    text-align: justify;
+}

@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.easy{
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: turquoise;
+    width: fit-content;
+}
+.medium{
+    padding: 4px 8px;
+    border-radius: 4px;
+    color:  dodgerblue;
+    width: fit-content;
+}
+.hard{
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: tomato;
+    width: fit-content;
+}

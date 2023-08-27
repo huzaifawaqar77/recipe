@@ -1,0 +1,67 @@
+.admin_dashboard_page{
+    padding: 32px 64px;
+}
+.admin_dashboard{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.admin_dashboard_container{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: space-between;
+}
+.admin_dashboard_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.admin_dashboard_buttons > form > button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 68, 0, 0.731);
+    color: #ccc;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.deleteButton{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 68, 0, 0.731);
+    color: #ccc;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.admin_recipe_show{
+    height: 70vh;
+    overflow-y: scroll;
+}
+.admin_recipe_show li{
+    list-style-type: none;
+}
+.admin_recipe_show_single_recipe{
+    border: 1px solid #555;
+    border-radius: 8px;
+    padding: 4px;
+}
+.recipeInformation{
+    font-weight: bolder;
+}
+@media (max-width: 550px){
+    .admin_dashboard_page{
+        padding: 8px 16px;
+    }
+    .admin_dashboard_container{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
